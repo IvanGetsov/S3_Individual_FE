@@ -1,0 +1,33 @@
+.custom-card {
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .custom-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-card .card-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .custom-card .card-text {
+    color: #555;
+  }
+
+  .user-adverts-container {
+    position: relative;
+  }
+  
+  .create-advert-button {
+    /* position: absolute; */
+    margin-top: 100px;    
+    width: 120px;
+    padding: 0.5rem 1rem; /* Adjust padding for the desired size */
+    font-size: 0.8rem; /* Adjust font size for the desired size */
+  }
+  

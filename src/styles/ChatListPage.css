@@ -1,0 +1,96 @@
+/* ChatListPage.css */
+
+/* Style for the container holding the chat list */
+.chat-list-container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Style for each chat item in the list */
+  .chat-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for chat items */
+  .chat-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Style for the advert picture */
+  .advert-picture {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  /* Style for the text content of each chat item */
+  .chat-content {
+    flex: 1;
+  }
+  
+  /* Style for the chat title (advert brand and model) */
+  .chat-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the car owner's name */
+  .owner-name {
+    font-size: 20px;
+    color: #555;
+  }
+  
+
+  .chat-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+
+  .no-chats-message {
+    font-size: 18px;
+    color: #777;
+  }
+
+
+.chat-item {
+    padding: 30px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+
+  .advert-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+
+  .chat-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  .chat-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  

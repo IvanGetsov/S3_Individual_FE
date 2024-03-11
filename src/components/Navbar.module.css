@@ -1,0 +1,43 @@
+
+.navBar {
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(196, 199, 205);
+  z-index: 9;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navBar img {
+  height: auto;
+  width: 70px;
+}
+
+.navBar a {
+  color: black;
+}
+
+.navBar a:hover{
+  color: black;
+}
+
+
+.dropdown-item {
+  color: black; 
+  font-size: 14px; 
+}
+
+.dropdown-item:hover {
+  background-color: rgb(107, 103, 103);
+  color: white;
+}
+
+.profilePictureNav{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}

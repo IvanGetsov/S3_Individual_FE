@@ -1,0 +1,35 @@
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../Images/back.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px; 
+}
+
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px; 
+  margin: auto; 
+  padding: 20px;
+}
+
+.grid-item-introduction {
+  margin: auto;
+  order: 2; 
+}
+
